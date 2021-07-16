@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bmi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bmi.SMainActivity"
+            android:label="@string/title_activity_smain" >
+        </activity>
+        <activity
+            android:name="com.example.bmi.TMainActivity"
+            android:label="@string/title_activity_tmain" >
+        </activity>
+        <activity
+            android:name="com.example.bmi.UMainActivity"
+            android:label="@string/title_activity_umain" >
+        </activity>
+        <activity
+            android:name="com.example.bmi.OMainActivity"
+            android:label="@string/title_activity_omain" >
+        </activity>
+        <activity
+            android:name="com.example.bmi.O2MainActivity"
+            android:label="@string/title_activity_o2_main" >
+        </activity>
+        <activity
+            android:name="com.example.bmi.VMainActivity"
+            android:label="@string/title_activity_vmain" >
+        </activity>
+        <activity
+            android:name="com.example.bmi.LMainActivity"
+            android:label="@string/title_activity_lmain" >
+        </activity>
+    </application>
+
+</manifest>

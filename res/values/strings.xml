@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="res">Result</string>
+    <string name="calc">CALCULATE</string>
+    <string name="wt">Enter Weight in KG</string>
+    <string name="ht">Enter Height in Meter</string>
+    <string name="bmi">BMI</string>
+    <string name="title_activity_smain">SMainActivity</string>
+    <string name="title_activity_tmain">TMainActivity</string>
+    <string name="title_activity_umain">UMainActivity</string>
+    <string name="title_activity_omain">OMainActivity</string>
+    <string name="title_activity_o2_main">O2MainActivity</string>
+    <string name="title_activity_vmain">VMainActivity</string>
+    <string name="title_activity_lmain">LMainActivity</string>
+
+</resources>
